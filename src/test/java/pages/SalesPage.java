@@ -119,8 +119,7 @@ public class SalesPage extends BasePage {
     @FindBy(xpath = "//div[contains(@class,'shipping-methods')]//div[contains(@class,'radio-field')]/div[2]//span[contains(@class,'radio')]")
     public WebElement expressDeliveryButton;
 
-    //@FindBy(xpath = "//form[contains(@id,'checkoutPaymentForm')]//div[contains(@class,'divide-y border')]/div[3]//a")
-    @FindBy(css = ".interactive > span")
+    @FindBy(xpath = "//form[contains(@id,'checkoutPaymentForm')]//div[contains(@class,'divide-y border')]/div[3]//a")
     public WebElement visaSelectButton;
 
     @FindBy(xpath = "//form[contains(@id,'checkoutPaymentForm')]//div[contains(@class,'stripe-form')]//div[contains(@class,'text-sm')]")
