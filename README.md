@@ -2,7 +2,7 @@
 
 For both challenges, I use config.properties to parameterize the values I are going to use in the selenium Test Challenge and in the API Test Challenge
 
-## For the First Selenium UI Test Challenge, we create:  
+## For the First Selenium UI Test Challenge, I created:  
 
 - DriverFactory.java (to use the method getInstance and do not initializate the browser multiple times)  
 
@@ -17,7 +17,7 @@ For both challenges, I use config.properties to parameterize the values I are go
 - I use TestNG for Assertions, validate the data registered agains the data shown in the Complete Shopping Order
 
 
-## For the Second API Test Challenge, we create:
+## For the Second API Test Challenge, I created:
 
 - TransactAPITest.java (we use the config.Properties to configure the URL and the access_key for the API Testing)
 
