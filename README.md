@@ -1,6 +1,6 @@
 # TRANSACT AutomationChallenge
 
-For both challenges, we use config.properties to parameterize the values we are going to use in the selenium Test Challenge and in the API Test Challenge
+For both challenges, I use config.properties to parameterize the values we are going to use in the selenium Test Challenge and in the API Test Challenge
 
 ## For the First Selenium UI Test Challenge, we create:  
 
