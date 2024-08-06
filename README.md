@@ -8,7 +8,7 @@ For both challenges, I use config.properties to parameterize the values I am goi
 
 - BasePage.java (With Basic Methods like waitUntilElementVisible, isElementVisible, elementClick, sendElementText)  
 
-- SalesPage.java (with All the locators defined in the evershop Excercise and some methods to interact with the shopping flow)
+- SalesPage.java (with All the locators defined in the evershop Exercise and some methods to interact with the shopping flow)
 
 - BaseTest.java (to setup and tearDown the driver using DriverFactory.java class created)
 
