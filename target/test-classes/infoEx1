@@ -1,0 +1,35 @@
+ Considerations:
+• Use your language of preference (bonus for Python).
+• Add the task to your personal GitHub with all the information required
+for us to run and validate it.
+• We set a deadline for returning the test within the next days (Due date: 08/05 - 11:59 pm)
+Evaluation Criteria:
+1. The tests pass stably and follow described cases.
+2. The solution is well and logically organized.
+3. The code is documented and is easy to-follow.
+4. The application is supplied with all the information required for
+us to run and validate it as well as a description and purpose of used additional libraries.
+Your solution can include:
+- Encapsulation layers like test data, logic of tests, actions on web pages and so on;
+- Generating random values for insignificant test data, for example, for new user, etc.
+Task 1 - UI Automated test using Selenium WebDriver
+What do you need to do?
+Create automated tests using the following test case:
+Sign in
+Preconditions
+* Generated customer with all customer data
+Test steps
+* Open [Home page](https://demo.evershop.io/)
+* Click *Sign in* button
+* Fill *Email address* and *Password* to create an account
+* Click *Create an account*
+* Log in
+* Select 3 differents products and add it to the cart with different quantities
+* Go to Checkout page and click on Checkout
+* Fill the shipping address and submit
+* Click on success to get correct card information
+* Fill payment information
+* Click Place Order
+Assertions
+* Verify Order created successful with the correct information Contact,
+Payment, Shipping Address, Billing Address and Items

@@ -1,0 +1,18 @@
+ Task 2 - API Automated test using
+Given the following web-services:
+https://api.countrylayer.com/v2/all
+https://api.countrylayer.com/v2/alpha/{code}
+To get the API Key you can sign up to this site https://countrylayer.com/documentation
+Please create the following automated test scenarios:
+- Get each country (US, DE and GB) individually and validate the response
+- Try to get information for inexistent countries and validate the response
+- Write a test that would validate new country addition using POST(it will not work,
+ since it does not have a POST method available, but try).
+Example of json body for POST is below:
+ {
+    name: "US",
+    alpha2_code: "TC",
+    alpha3_code: "TCY"
+ }
+Tip: Do not forget to validate the response codes!
+PD: In case the API for countrylayer does not work, try with https://restcountries.com/
